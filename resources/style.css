@@ -7,25 +7,141 @@ body {
   text-align: center;
 }
 
-
 .logo {
   display: flex;
-  align-items: center;
+  align-items: center
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid seashell;
   background-color: black;
-  font-size: 14px;
-  font-weight: bold;
 }
 
-nav span {
+nav li {
   text-decoration: underline;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 20px 10px;
+  display: inline-flex;
+  position: relative;
+  flex-shrink: 1;
+  justify-content: space-around;
+  width: 130px;
+  top: 30px;
+  left: 680px;
+  z-index: 1;
+  color: white;
+}
+
+.mission {
+display: flex;
+position: relative;
+bottom: 450px;
+border: 60px solid black;
+}
+
+.our {
+  position: relative;
+  bottom: 580px;
+}
+
+.explain {
+  position: relative;
+  bottom: 590px;
+}
+
+.featured {
+  position: relative;
+  bottom: 200px;
+}
+
+.berryblitz {
+position: relative;
+bottom: 200px;
+right: 350px;
+}
+
+.spicerum {
+  position: relative;
+  bottom: 475px;
+}
+
+.donut {
+  position: relative;
+  left: 350px;
+  bottom: 750px;
+}
+
+.myrtle {
+  position: relative;
+  bottom: 750px;
+  right: 180px;
+}
+
+.bizzare {
+  position: relative;
+  left: 160px;
+  bottom: 1030px;
+}
+
+.locations {
+  position: relative;
+  height: 500px;
+  bottom: 1000px;
+}
+
+.textlocation {
+  position: relative;
+  bottom: 1400px;
+}
+
+.downtown {
+  position: relative;
+  border: 150px solid black;
+  width: 50px;
+  bottom: 1350px;
+  left: 50px;
+}
+
+.downtowntext {
+  position: relative;
+  bottom: 1650px;
+  right: 400px;
+}
+
+.eastbayside {
+  position: relative;
+  border: 150px solid black;
+  width: 50px;
+  bottom: 1875px;
+  left: 450px;
+}
+
+.easttext {
+  position: relative;
+  bottom: 2170px;
+}
+
+.oakdale {
+  position: relative;
+  border: 150px solid black;
+  width: 50px;
+  left: 850px;
+  bottom: 2400px;
+}
+
+.oakdaletext {
+position: relative;
+opacity: 1;
+bottom: 2695px;
+left: 400px;
+}
+
+.contact {
+ position: relative;
+ bottom: 2450px;
+}
+
+.footer {
+  position: relative;
+  text-align: left;
+  bottom: 2400px;
 }
