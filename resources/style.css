@@ -84,6 +84,7 @@ right: 350px;
 }
 
 .locations {
+  background-image:("./resources/images/locations.jpg");
   position: relative;
   height: 500px;
   bottom: 1000px;
