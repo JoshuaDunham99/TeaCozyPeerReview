@@ -9,7 +9,8 @@ body {
 
 .logo {
   display: flex;
-  align-items: center
+  flex-grow: 1;
+  align-items: stretch;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -89,35 +90,52 @@ right: 350px;
 }
 
 .textlocation {
+  display: flex;
+  justify-content: center;
   position: relative;
   bottom: 1400px;
 }
 
 .downtown {
+  display: flex;
   position: relative;
-  border: 150px solid black;
-  width: 50px;
-  bottom: 1350px;
-  left: 50px;
+  border: 50px solid black;
+  width: 300px;
+  height: 300px;
+  bottom: 1400px;
+  left: 20px;
+  background-color: black;
 }
 
 .downtowntext {
+  display: flex;
   position: relative;
-  bottom: 1650px;
-  right: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  left: 75px;
+  bottom: 20px;
+
 }
 
 .eastbayside {
+  display: flex;
   position: relative;
-  border: 150px solid black;
-  width: 50px;
-  bottom: 1875px;
-  left: 450px;
+  border: 200px solid black;
+  width: 10px;
+  bottom: 50px;
+  left: 250px;
+  background-color: black;
 }
 
 .easttext {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  bottom: 2170px;
+  bottom: 210px;
+  right: 60px;
+
+
 }
 
 .oakdale {
@@ -144,4 +162,13 @@ left: 400px;
   position: relative;
   text-align: left;
   bottom: 2400px;
+}
+
+.missioncontainer {
+  width: 1200px;
+}
+
+header nav {
+  display: flex;
+  flex-grow: 1;
 }
